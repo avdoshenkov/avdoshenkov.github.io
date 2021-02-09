@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>yandex-mail</title>
+    <defs>
+        <linearGradient x1="154.881081%" y1="-39.6820998%" x2="16.833514%" y2="40.4403093%" id="linearGradient-1">
+            <stop stop-color="#FFDA3E" offset="0%" />
+            <stop stop-color="#FF3333" offset="100%" />
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yandex-mail">
+            <rect id="Rectangle" fill="#F9DB60" x="0" y="0" width="32" height="32" rx="4" />
+            <path d="M18.561,18.866 C17.0775239,20.1024448 14.9224761,20.1024448 13.439,18.866 L0,7.931 C0,5.0781243 0,3.65168645 0,3.65168645 C0,2.1491441 1.8329726,-2.48689958e-14 3.61550903,-2.48689958e-14 C3.61550903,-2.48689958e-14 7.74367269,-2.48689958e-14 16,-2.48689958e-14 C24.0774176,-2.48689958e-14 28.1161264,-2.48689958e-14 28.1161264,-2.48689958e-14 C30.2708318,-2.48689958e-14 32,2.11934721 32,3.65168645 C32,3.65168645 32,5.0781243 32,7.931 L18.561,18.866 Z" id="Path" fill="url(#linearGradient-1)" />
+        </g>
+    </g>
+</svg>
