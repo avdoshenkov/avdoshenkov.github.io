@@ -2,46 +2,164 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style.css">
-        <title>CV from Hexlet lesson</title>
+        <link rel="stylesheet" href="/style.css">
+        <title>Резюме</title>
     </head>
-    <body>
-        <div id="header">
-            <h1>Авдошенков Дмитрий</h1>
-            <h3>Frontend-разработчик</h3>
-            <p><a href="mailto:avdoshenkov@yandex.ru">avdoshenkov@yandex.ru</a>, <a href="https://moikrug.ru/avdoshenkovdv">Мой круг</a></p>
+    <body class="mx-auto page max-w-4xl md:max-w-letter bg-gray-100  dark:bg-gray-800 grid grid-cols-8 gap-4 items-start py-8">
+        <div id="header" class="px-4 col-span-3 grid grid-cols-3 gap-2">
+            <picture class="overflow-hidden sm:rounded-full max-w-xs block shadow-lg mb-2 col-span-2 self-start">
+                <source
+                        media="(max-width: 767px)"
+                        sizes="(max-width: 1534px) 100vw, 1534px"
+                        srcset="
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_595.jpg 595w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_874.jpg 874w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1075.jpg 1075w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1237.jpg 1237w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1416.jpg 1416w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1447.jpg 1447w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1523.jpg 1523w,
+                            /assets/images/avatar_p2kxjy_ar_1_1,c_fill,g_auto__c_scale,w_1534.jpg 1534w">
+                <source
+                        media="(min-width: 768px) and (max-width: 991px)"
+                        sizes="(max-width: 1983px) 70vw, 1388px"
+                        srcset="
+                            /assets/images/avatar_p2kxjy_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
+                            /assets/images/avatar_p2kxjy_ar_4_3,c_fill,g_auto__c_scale,w_890.jpg 890w,
+                            /assets/images/avatar_p2kxjy_ar_4_3,c_fill,g_auto__c_scale,w_1173.jpg 1173w,
+                            /assets/images/avatar_p2kxjy_ar_4_3,c_fill,g_auto__c_scale,w_1388.jpg 1388w">
+                <img
+                        sizes="(max-width: 4893px) 40vw, 1957px"
+                        srcset="
+                            /assets/images/avatar_p2kxjy_c_scale,w_397.jpg 397w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_718.jpg 718w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_957.jpg 957w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1128.jpg 1128w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1305.jpg 1305w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1455.jpg 1455w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1529.jpg 1529w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1552.jpg 1552w,
+                            /assets/images/avatar_p2kxjy_c_scale,w_1957.jpg 1957w"
+                        src="/assets/images/avatar_p2kxjy_c_scale,w_1957.jpg"
+                        alt="Фотография">
+            </picture>
+            <div class="col-span-3">
+                <h1>Авдошенков Дмитрий</h1>
+                <h3 class="font-light text-base text-gray-600 dark:text-gray-400">Frontend-разработчик</h3>
+                <p class="font-light text-gray-600 dark:text-gray-400 mb-4">Россия, г. Самара</p>
+                <p class="flex mb-8">
+                    <a href="mailto:avdoshenkov@yandex.ru" title="Электронная почта">
+                        <img class="w-6 mr-2" src="/assets/images/yandex-mail.svg" alt="Логотип Яндекс.Почты" />
+                    </a>
+                    <a href="https://career.habr.com/avdoshenkovdv/" title="Хабр Карьера">
+                        <img class="w-6 mr-2" src="/assets/images/habr-career.png" alt="Логотип Хабр Карьеры" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/avdoshenkov/" title="LinkedIn">
+                        <img class="w-6 mr-2" src="/assets/images/linked-in.svg" alt="Логотип LinkedIn" />
+                    </a>
+                    <a href="https://github.com/avdoshenkov" title="GitHub">
+                        <img class="w-6 mr-2" src="/assets/images/github.svg" alt="Логотип GitHub" />
+                    </a>
+                    <a href="https://t.me/avdoshenkov" title="Telegram">
+                        <img class="w-6 mr-2" src="/assets/images/telegram.svg" alt="Логотип Telegram" />
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~019320241f4464d318" title="Upwork">
+                        <img class="w-6 mr-2" src="/assets/images/upwork.svg" alt="Логотип Upwork" />
+                    </a>
+                </p>
+            </div>
+            <div class="col-span-3">
+                <p class="text-gray-600 dark:text-gray-400 mb-2">Интересуюсь созданием удобных, красивых и быстрых интерфейсов. Кроме чистого-настоящего JavaScript-кода также люблю разбираться c каскадами и разметками.
+                <p class="text-gray-600 dark:text-gray-400 mb-2">Регулярно занимаюсь бегом.</p>
+                <p class="text-gray-600 dark:text-gray-400 mb-2">В свободное время люблю проводить время на природе, с книжкой, либо фотоаппаратом.</p>
+            </div>
         </div>
-        <div id="main">
-            <section>
-                <h2>Опыт работы</h2>
-                <h3>EGAR Technology</h3>
-                <p>Программист, <em>октябрь 2017 - н.в.</em></p>
-                <ul>
-                    <li>AngularJS, JS, SASS, Grunt</li>
-                    <li>Scala, Docker</li>
-                </ul>
+        <div id="main" class="col-start-4 col-span-5">
+            <section class="relative group">
+                <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 group-hover:rotate-0 group-hover:translate-y-2 group-hover:-translate-x-2 transition-transform duration-100 ease-in-out sm:rounded-2xl"></div>
+                <div class="relative bg-white dark:bg-gray-900 shadow-md sm:rounded-2xl p-8 mb-8">
+                    <h2>Опыт работы</h2>
+                    <article class="mb-4">
+                        <h3>Inventale</h3>
+                        <p class="text-gray-600 dark:text-gray-400">Frontend-разработчик, <em>июль 2018 — по н.в.</em></p>
+                        <p class="text-gray-600 dark:text-gray-400 mb-2">Самара</p>
+                        <ul class="list-disc pl-4 mb-4">
+                            <li class="mb-1">
+                                Разрабатывал приложение продукта компании на базе Angular (в том числе миграция с AngularJS)
+                            </li>
+                            <li class="mb-1">
+                                На основе дизайна в Figma сделал два корпоративных сайта на GatsbyJS (React): <a href="https://inventale.com/" target="_blank">https://inventale.com/</a> и <a href="https://invenpro.tech/" target="_blank">https://invenpro.tech/</a>. Для каждого из сайтов настроил Gitlab CI/CD, публикация происходит в AWS
+                            </li>
+                            <li class="mb-1">
+                                Разработал в составе небольших команд несколько продуктов для зарубежных заказчиков. Часть из них готовы и приносят заказчикам прибыль, часть приложений помимо
+                                этого продолжаем поддерживать и улучшать. Есть опыт работы c Auth0
+                            </li>
+                        </ul>
+                        <ul class="flex flex-wrap">
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Angular</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">JS</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">GatsbyJS</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">React</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Node.js</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Figma</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Gitlab CI</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">AWS</li>
+                        </ul>
+                    </article>
+                    <hr>
+                    <article class="my-4">
+                        <h3>EGAR Technology</h3>
+                        <p class="text-gray-600 dark:text-gray-400">Frontend-разработчик, <em>октябрь 2017 - июнь 2018</em></p>
+                        <p class="text-gray-600 dark:text-gray-400 mb-2">Самара</p>
+                        <ul class="list-disc pl-4 mb-4">
+                            <li class="mb-1">Поддерживал AngularJS-приложение для внутреннего использования в одном из крупнейших банков России, в том числе с использованием прокси-слоя на Scala</li>
+                        </ul>
+                        <ul class="flex">
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">AngularJS</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">JS</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">SASS</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Git</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Docker</li>
+                        </ul>
+                    </article>
+                </div>
             </section>
-            <section>
-                <h2>Образование</h2>
-                <h3>СПбГУТ им. проф. М.А. Бонч-Бруевича</h3>
-                <p>Бакалавр, мобильная связь, <em>2012 - 2016</em></p>
-                <ul>
-                    <li>3G, LTE, GSM</li>
-                    <li>Wi-Fi, SQL, C#</li>
-                </ul>
+            <section class="relative group">
+                <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 group-hover:rotate-0 group-hover:translate-y-2 group-hover:-translate-x-2 transition-transform duration-100 ease-in-out sm:rounded-2xl"></div>
+                <div class="relative bg-white shadow-md sm:rounded-2xl p-8 mb-8">
+                    <h2>Образование</h2>
+                    <article>
+                        <h3>СПбГУТ им. проф. М.А. Бонч-Бруевича</h3>
+                        <p class="text-gray-600 dark:text-gray-400">Бакалавр, мобильная связь, <em>2012 - 2016</em></p>
+                        <p class="text-gray-600 dark:text-gray-400 mb-2">Санкт-Петербург</p>
+                        <ul class="list-disc pl-4 mb-4">
+                            <li>Инфокоммуникационные технологии и системы связи (Мобильная связь)</li>
+                            <li>Участвовал в разработке системы оповещения на железнодорожных вокзалах</li>
+                        </ul>
+                        <ul class="flex">
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">3G</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">LTE</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">GSM</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">Wi-Fi</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">SQL</li>
+                            <li class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg rounded-3xl text-white py-1 px-2 mr-2 mb-2">C#</li>
+                        </ul>
+                    </article>
+                </div>
             </section>
-            <section>
-                <h2>Другие навыки и увлечения</h2>
-                <ul>
-                    <li>Photoshop, Sketch, Figma</li>
-                    <li>Фотография</li>
-                    <li>Музыка</li>
-                </ul>
+            <section class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 group-hover:rotate-0 group-hover:translate-y-2 group-hover:-translate-x-2 transition-transform duration-100 ease-in-out sm:rounded-2xl"></div>
+                <div class="relative bg-white shadow-md sm:rounded-2xl p-8 mb-8">
+                    <h2>Другие навыки и увлечения</h2>
+                    <ul class="list-disc pl-4 mb-4">
+                        <li>Бег</li>
+                        <li>Photoshop, Sketch, Figma</li>
+                        <li>Фотография</li>
+                        <li>Музыка</li>
+                    </ul>
+                </div>
             </section>
-        </div>
-        <div id="footer">
-            <p><strong>Авдошенков Дмитрий</strong></p>
-            <p>г. Самара</p>
         </div>
     </body>
 </html>
